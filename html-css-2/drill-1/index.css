@@ -1,0 +1,39 @@
+#grey-box {
+    background-color: #36454f;
+    height: 20vh;
+    width: 100%
+    
+}
+
+#vertical-columns > div {
+    background-color: rgb(193, 191, 191);
+    height: 100%;
+    width: 20vh;
+}
+
+#column-left {
+    position: fixed;
+    left: 0px;
+    z-index: 2;
+
+}
+
+#column-right {
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+}
+
+#footer {
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+}
+
+
+body {
+    background-color: white;
+}
